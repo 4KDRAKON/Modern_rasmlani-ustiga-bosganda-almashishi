@@ -1,0 +1,65 @@
+
+@font-face {
+    font-display: swap;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/inter-v13-latin-regular.woff2') format('woff2'); 
+  }
+ 
+  @font-face {
+    font-display: swap; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/inter-v13-latin-500.woff2') format('woff2'); 
+  }
+
+  .Header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+.container{
+    width: 1440px;
+    padding: 0 20px;
+    margin: auto;
+}
+
+.aa:nth-child(2){
+    margin-left: 50px;
+}
+.Headernimadir{
+    display: flex;
+    gap: 63px;
+}
+.header__link{
+    font-family: "Inter";
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color: #616364;
+transition: all 1s ease-in-out;
+
+}
+.header__link:hover{
+        text-decoration: underline;
+        color: #000000;
+        font-family: "Inter";
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: center;
+        text-decoration-thickness: 3px;
+        text-decoration-color: #B69874;
+        text-underline-offset: 13px;
+}
+
+.header__btn{
+    border: none;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
